@@ -7,6 +7,8 @@ layout: note
 
 ## Artificial intelligence (general interest)
 
+- R. G. Smith and J. Eckroth. "Building AI Applications: Yesterday, Today, and Tomorrow." *AI Magazine* (in press 2016)
+
 - B. G. Buchanan, J. Eckroth, R. G. Smith. "A Virtual Archive for the History of AI." *AI Magazine*, pp. 86–98, Summer 2013 ([PDF](../downloads/buchanan-et-al-2013.pdf), [AAAI](http://www.aaai.org/ojs/index.php/aimagazine/article/view/2455))
 
 ## Abductive reasoning
