@@ -23,12 +23,12 @@ The assignment is limited to a single repository with no
 branches. However, realistic git messes involve merge conflicts and
 pull/push operations and cherry-picking and stashes and so on... Is it
 possible to build a planning knowledge base that represents the git
-system in its entirety? Or at least a large part of git that is
+system in its entirety? Or at least a large subset of git that is
 commonly encountered in daily use?
 
 If such a system could be built, then it would be able to suggest a
-series of actions to fix any git mess. It could be used by individuals
-to assist their daily software development. It could also be used
+series of actions to fix most git messes. It could be used by individuals
+to assist in their daily software development. It could also be used
 during automated deployments to ensure the repository is in a certain
 state. In short, many developers around the world would be very
 interested if such a system existed. Significant internet points can
@@ -38,34 +38,49 @@ be had.
 
 The
 [fifth assignment in my AI class](http://csci431.artifice.cc/assignments/a05.html)
-asks students to build a system that advises computer science students
-at Stetson in their course selection. The idea is that the system
-would take the place of a faculty adviser, at least for relatively
-straightforward advising scenarios. The system would be built with a
-set of rules that mirror the kinds of thought processes a human
-advisor would entertain depending on the student's particular
-situation.
+asks students to build a system that advises computer science students at
+Stetson in their course selection. The idea is that the system would take the
+place of a faculty adviser, at least for relatively straightforward advising
+scenarios. The system would be built with a set of rules that mirror the
+University rules for coursework and the kinds of thought processes a human
+advisor would entertain depending on the student's particular situation. The
+result would be like a smarter Degree Audit tool that guided students like an
+advisor would.
 
-A more extensive version of this system would automate more aspects of
-the advising relationship, such as scheduling of summer courses,
-consideration of minors, support for more majors, etc. Ultimately, the
-system could expose a user interface in which the software acts as an
+A more extensive version of this system would automate more aspects of the
+advising relationship, such as scheduling of summer courses, consideration of
+minors, support for more majors, general education requirements, etc. A domain
+specific language can be designed to allow advising experts but non-computer
+programmers to validate and possibly update the knowledge base. Furthermore,
+the system could present a user interface in which the software acts as an
 assistant for faculty advisors across campus.
+
+### Pentesting/intrusion/exploitation plan recognition
+
+Suppose Dr. Plante is teaching the computer security course and each student has his/her own virtual machine on the delenn server. Each student is attempting to find vulnerabilities in the VM's services. Suppose further that Dr. Plante is able to monitor and record all network traffic to/from each student's VM. Is it possible to recognize the kinds of pentesting or intrusions or exploitation techniques that the student is using? Can we understand how students find successful vulnerabilities or identify reasons they fail to do so? With such a recognition engine, we could build an automated tutoring system that guides students on the right path.
+
+Some existing research exists for (separately) intrusion detection from network traffic signatures and plan recognition. By combining the two subfields of AI and computer security, we could produce a useful tool for computer security educators.
+
+See the project idea below, "Automated configuration of computer security scenarios," for a companion project.
 
 ### American Sign Language tutor
 
 Is it possible to build a computer-based sign language recognition
 system that uses only a computer or smartphone's built-in camera? This
 project was the subject of earlier senior research. The next task in
-this project is to find a way to use deep learning or another
-technique to train an accurate recognizer using a set of training
-images. Assuming that works, a usable application should be built and
-possibly fashioned into a computer-based tutoring system for ASL
-learners. Current ASL tutoring systems are very limited or require
-special gloves or other sensors. The benefit with the proposed system
-is that it would be low-cost and usable by anyone with a laptop or
-smartphone, though this constraint brings significant challenges in
-accurately recognizing signs.
+this project is to find a way to use deep learning or another technique to
+train an accurate recognizer using a set of training images. Assuming that
+works, a usable application could be built and possibly fashioned into a
+computer-based tutoring system for ASL learners. Current ASL tutoring systems
+require special gloves or other sensors.  The benefit with the proposed system
+is that it would be low-cost and usable by anyone with a laptop or smartphone,
+though this constraint brings significant challenges in accurately recognizing
+signs.
+
+
+### Recommendations based on contextual proximity
+
+This idea was contributed by Jeffrey Wray of Mobilozophy (jwray@mobilozophy.com), CSCI alumnus from 2009. Using a grid of inexpensive Bluetooth LE beacons in a large space, can we identify and analyze the travel paths and other behaviors of people and make individualized recommendations? E.g., can we recommend products and services to customers wandering around a store or public market? Can we build an individualized tour guide for visitors in a museum by inferring their interests based on the exhibits they visit? Can we optimize a space for efficient crowd flow by detecting choke points and idling? This project combines several aspects of AI such as sensor-based tracking, behavior recognition, and recommendation engines.
 
 ## Programming languages
 
@@ -108,6 +123,16 @@ should also work for data as well as code, i.e., a square could also
 be input to a function (so, squares consume squares). The payoff of
 such a project is that you would develop something completely
 novel. Bonus points if it can also be made useful.
+
+## Computing infrastructure
+
+### Automated configuration of computer security scenarios
+
+The computer security course at Stetson, and others like it at many colleges, was designed by Dr. Plante to give students realistic scenarios for penetration testing, exploitation and exploit detection, etc. He and I have begun working on a declarative language for defining scenarios and corresponding tool that generates a host of virtual machines (e.g., one VM per student or group) with specific operating system, network, and application configurations. The configurations are determined by the predefined textual scenarios. Vagrant and Ansible are used to launch and configure the VMs.
+
+According to my research, no such tool exists. There are various repositories of prebuilt VM images for various security course scenarios. What we hope to offer is a more flexible tool in which the scenarios are defined in a text file, and the VM images are built on-demand. With this flexibility, the scenarios could even be randomly generated (for exam situations). They can also be shared among the community of security educators as the scenarios will be defined by simple text files rather than shared as complete VM images.
+
+We already have a start on the implementation. See [this GitHub repository](https://github.com/StetsonMathCS/openvsec).
 
 ## Other ideas
 
