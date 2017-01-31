@@ -7,9 +7,21 @@ layout: note
 
 ## Artificial intelligence (general interest)
 
-- R. G. Smith and J. Eckroth. "Building AI Applications: Yesterday, Today, and Tomorrow." *AI Magazine* (in press 2016)
+- R. G. Smith and J. Eckroth. "Building AI Applications: Yesterday, Today, and Tomorrow." *AI Magazine* (in press 2017)
 
 - B. G. Buchanan, J. Eckroth, R. G. Smith. "A Virtual Archive for the History of AI." *AI Magazine*, pp. 86–98, Summer 2013 ([PDF](../downloads/buchanan-et-al-2013.pdf), [AAAI](http://www.aaai.org/ojs/index.php/aimagazine/article/view/2455))
+
+## Computer science education
+
+- J. Eckroth. "Model AI Assignments 2017: Git Planner." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence* (in press 2017)
+
+- J. Eckroth. "Model AI Assignments 2017: Organic Pathfinding." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence* (in press 2017)
+
+- J. Eckroth. "Blue Sky Ideas in Artificial Intelligence Education from the EAAI 2017 New and Future AI Educator Program." Unpublished manuscript compiled at *The Seventh Symposium on Educational Advances in Artificial Intelligence*, 2017
+
+- J. Eckroth. "Teaching Big Data with a Virtual Cluster." *Proceedings of the 47th ACM Technical Symposium on Computing Science Education (SIGCSE)*, pp. 175–180, 2016 ([PDF](../downloads/eckroth-sigcse-2016.pdf))
+
+- J. Eckroth. "Foundations of a Cross-Disciplinary Pedagogy for Big Data." *Journal of Computing Sciences in Colleges* 31(3), pp. 110–118, 2015 ([PDF](../downloads/eckroth-big-data-pedagogy-ccsc-eastern-2015-final.pdf))
 
 ## Abductive reasoning
 
@@ -20,12 +32,6 @@ layout: note
 - J. Eckroth, J. Josephson. "Anomaly-Driven Belief Revision and Noise Detection by Abductive Metareasoning." *Advances in Cognitive Systems* 3, pp. 123–143, 2014 ([PDF](http://cogsys.org/pdf/paper-9-3-24.pdf))
 
 - J. Eckroth, J. Josephson. "Commonsense Abductive Reasoning and Metareasoning Using Knowledge from Bayesian Networks." *AAAI-14 Spring Symposium, Knowledge Representation and Reasoning in Robotics*, pp. 31–38, 2014 ([PDF](../downloads/eckroth-aaai-2014-spring-symposium.pdf))
-
-## Computer science education
-
-- J. Eckroth. "Teaching Big Data with a Virtual Cluster." *Proceedings of the 47th ACM Technical Symposium on Computing Science Education (SIGCSE)*, pp. 175–180, 2016 ([PDF](../downloads/eckroth-sigcse-2016.pdf))
-
-- J. Eckroth. "Foundations of a Cross-Disciplinary Pedagogy for Big Data." *Journal of Computing Sciences in Colleges* 31(3), pp. 110–118, 2015 ([PDF](../downloads/eckroth-big-data-pedagogy-ccsc-eastern-2015-final.pdf))
 
 ## Natural language processing
 

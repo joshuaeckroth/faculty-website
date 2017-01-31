@@ -10,51 +10,6 @@ following ideas, or talk to me to brainstorm new ones.
 
 ## Artificial intelligence
 
-### Git planner
-
-The
-[second assignment in my AI class](http://csci431.artifice.cc/assignments/a02.html)
-asks students to build a system that generates a series of git
-commands to transform a repository from some starting state to some
-goal state. In other words, it finds a plan for you to get out of a
-"git mess."
-
-The assignment is limited to a single repository with no
-branches. However, realistic git messes involve merge conflicts and
-pull/push operations and cherry-picking and stashes and so on... Is it
-possible to build a planning knowledge base that represents the git
-system in its entirety? Or at least a large subset of git that is
-commonly encountered in daily use?
-
-If such a system could be built, then it would be able to suggest a
-series of actions to fix most git messes. It could be used by individuals
-to assist in their daily software development. It could also be used
-during automated deployments to ensure the repository is in a certain
-state. In short, many developers around the world would be very
-interested if such a system existed. Significant internet points can
-be had.
-
-### Student advisor
-
-The
-[fifth assignment in my AI class](http://csci431.artifice.cc/assignments/a05.html)
-asks students to build a system that advises computer science students at
-Stetson in their course selection. The idea is that the system would take the
-place of a faculty adviser, at least for relatively straightforward advising
-scenarios. The system would be built with a set of rules that mirror the
-University rules for coursework and the kinds of thought processes a human
-advisor would entertain depending on the student's particular situation. The
-result would be like a smarter Degree Audit tool that guided students like an
-advisor would.
-
-A more extensive version of this system would automate more aspects of the
-advising relationship, such as scheduling of summer courses, consideration of
-minors, support for more majors, general education requirements, etc. A domain
-specific language can be designed to allow advising experts but non-computer
-programmers to validate and possibly update the knowledge base. Furthermore,
-the system could present a user interface in which the software acts as an
-assistant for faculty advisors across campus.
-
 ### Pentesting/intrusion/exploitation plan recognition
 
 Suppose Dr. Plante is teaching the computer security course and each student has his/her own virtual machine on the delenn server. Each student is attempting to find vulnerabilities in the VM's services. Suppose further that Dr. Plante is able to monitor and record all network traffic to/from each student's VM. Is it possible to recognize the kinds of pentesting or intrusions or exploitation techniques that the student is using? Can we understand how students find successful vulnerabilities or identify reasons they fail to do so? With such a recognition engine, we could build an automated tutoring system that guides students on the right path.
