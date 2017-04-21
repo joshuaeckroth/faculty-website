@@ -13,15 +13,15 @@ layout: note
 
 ## Computer science education
 
-- J. Eckroth. "Model AI Assignments 2017: Git Planner." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence* (in press 2017)
+- J. Eckroth. "Model AI Assignments 2017: Git Planner." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence*, 2017 ([Link](http://modelai.gettysburg.edu/2017/gitplanner/index.html))
 
-- J. Eckroth. "Model AI Assignments 2017: Organic Pathfinding." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence* (in press 2017)
+- J. Eckroth. "Model AI Assignments 2017: Organic Pathfinding." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence*, 2017 ([Link](http://modelai.gettysburg.edu/2017/pathfinding/index.html)) 
 
-- J. Eckroth. "Blue Sky Ideas in Artificial Intelligence Education from the EAAI 2017 New and Future AI Educator Program." Unpublished manuscript compiled at *The Seventh Symposium on Educational Advances in Artificial Intelligence*, 2017
+- J. Eckroth. "Blue Sky Ideas in Artificial Intelligence Education from the EAAI 2017 New and Future AI Educator Program." Working paper in *The Seventh Symposium on Educational Advances in Artificial Intelligence*, 2017 ([arXiv](https://arxiv.org/abs/1702.00137))
 
-- J. Eckroth. "Teaching Big Data with a Virtual Cluster." *Proceedings of the 47th ACM Technical Symposium on Computing Science Education (SIGCSE)*, pp. 175–180, 2016 ([PDF](../downloads/eckroth-sigcse-2016.pdf))
+- J. Eckroth. "Teaching Big Data with a Virtual Cluster." *Proceedings of the 47th ACM Technical Symposium on Computing Science Education (SIGCSE)*, pp. 175–180, 2016 ([PDF](../downloads/eckroth-sigcse-2016.pdf), [ACM DL](http://dl.acm.org/citation.cfm?id=2844651))
 
-- J. Eckroth. "Foundations of a Cross-Disciplinary Pedagogy for Big Data." *Journal of Computing Sciences in Colleges* 31(3), pp. 110–118, 2015 ([PDF](../downloads/eckroth-big-data-pedagogy-ccsc-eastern-2015-final.pdf))
+- J. Eckroth. "Foundations of a Cross-Disciplinary Pedagogy for Big Data." *Journal of Computing Sciences in Colleges* 31(3), pp. 110–118, 2015 ([PDF](../downloads/eckroth-big-data-pedagogy-ccsc-eastern-2015-final.pdf), [ACM DL](http://dl.acm.org/citation.cfm?id=2835394))
 
 ## Abductive reasoning
 
