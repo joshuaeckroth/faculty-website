@@ -7,11 +7,13 @@ layout: note
 
 ## Artificial intelligence (general interest)
 
-- R. G. Smith and J. Eckroth. "Building AI Applications: Yesterday, Today, and Tomorrow." *AI Magazine* (in press 2017)
+- R. G. Smith and J. Eckroth. "Building AI Applications: Yesterday, Today, and Tomorrow." *AI Magazine* 38(1), pp. 6-22, 2017 ([PDF](../downloads/smith-eckroth-2017.pdf), [AAAI](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2709))
 
-- B. G. Buchanan, J. Eckroth, R. G. Smith. "A Virtual Archive for the History of AI." *AI Magazine*, pp. 86–98, Summer 2013 ([PDF](../downloads/buchanan-et-al-2013.pdf), [AAAI](http://www.aaai.org/ojs/index.php/aimagazine/article/view/2455))
+- B. G. Buchanan, J. Eckroth, R. G. Smith. "A Virtual Archive for the History of AI." *AI Magazine* 34(2), pp. 86–98, 2013 ([PDF](../downloads/buchanan-et-al-2013.pdf), [AAAI](http://www.aaai.org/ojs/index.php/aimagazine/article/view/2455))
 
 ## Computer science education
+
+- **Best Paper.** J. Eckroth. "Teaching Future Big Data Analysts: Curriculum and Experience Report." *7th NSF/TCPP Workshop on Parallel and Distributed Computing Education (EduPar-17)* (In Press) ([PDF](../downloads/eckroth-edupar-17.pdf))
 
 - J. Eckroth. "Model AI Assignments 2017: Git Planner." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence*, 2017 ([Link](http://modelai.gettysburg.edu/2017/gitplanner/index.html))
 
