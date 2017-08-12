@@ -13,7 +13,7 @@ layout: note
 
 ## Computer science education
 
-- **Best Paper.** J. Eckroth. "Teaching Future Big Data Analysts: Curriculum and Experience Report." *7th NSF/TCPP Workshop on Parallel and Distributed Computing Education (EduPar-17)* (In Press) ([PDF](../downloads/eckroth-edupar-17.pdf))
+- **(Best Paper)** J. Eckroth. "Teaching Future Big Data Analysts: Curriculum and Experience Report." *7th IEEE NSF/TCPP Workshop on Parallel and Distributed Computing Education (EduPar-17)*, pp. 346-351, 2017 ([PDF](../downloads/eckroth-edupar-17.pdf), [IEEE](http://ieeexplore.ieee.org/abstract/document/7965066/))
 
 - J. Eckroth. "Model AI Assignments 2017: Git Planner." *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence*, 2017 ([Link](http://modelai.gettysburg.edu/2017/gitplanner/index.html))
 
