@@ -7,11 +7,17 @@ layout: note
 
 ## Artificial intelligence (general interest)
 
+- Two articles in *AI Matters* 3(4) Winter 2018 (p. 21-22 [PDF](https://sigai.acm.org/static/aimatters/3-4/AIMatters-3-4-06-Eckroth.pdf), p. 25-26 [PDF](https://sigai.acm.org/static/aimatters/3-4/AIMatters-3-4-07-Eaton.pdf))
+
 - R. G. Smith and J. Eckroth. "Building AI Applications: Yesterday, Today, and Tomorrow." *AI Magazine* 38(1), pp. 6-22, 2017 ([PDF](../downloads/smith-eckroth-2017.pdf), [AAAI](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2709))
 
 - B. G. Buchanan, J. Eckroth, R. G. Smith. "A Virtual Archive for the History of AI." *AI Magazine* 34(2), pp. 86–98, 2013 ([PDF](../downloads/buchanan-et-al-2013.pdf), [AAAI](http://www.aaai.org/ojs/index.php/aimagazine/article/view/2455))
 
 ## Computer science education
+
+- J. Eckroth. "Teaching cybersecurity and Python programming in a 5-day summer camp." *Journal of Computing Sciences in Colleges* (In Press)
+
+- J. Eckroth. "Model AI Assignments 2018: Biductive computing: Several variants of a universal paradigm." *Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence* (In Press)
 
 - **(Best Paper)** J. Eckroth. "Teaching Future Big Data Analysts: Curriculum and Experience Report." *7th IEEE NSF/TCPP Workshop on Parallel and Distributed Computing Education (EduPar-17)*, pp. 346-351, 2017 ([PDF](../downloads/eckroth-edupar-17.pdf), [IEEE](http://ieeexplore.ieee.org/abstract/document/7965066/))
 
