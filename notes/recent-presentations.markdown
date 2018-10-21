@@ -17,6 +17,7 @@ layout: note
 
 ## Computer science education
 
+- Tarot: A Course Advising System for the Future -- presented at CCSC-E 2018; [slides](../downloads/eckroth-tarot-ccsc-e-2018-trimmed.pdf); [paper](../downloads/eckroth-anderson-ccsc-e-2018-tarot.pdf)
 - Teaching cybersecurity and Python programming in a 5-day summer camp -- presented at CCSC-NE 2018; [slides](../downloads/eckroth-ccsc-ne-2018.pdf); [paper](../downloads/eckroth-ccsc-ne-2018-cybersecurity-summer-camp.pdf)
 - Biductive computing: Several variants of a universal paradigm -- presented at EAAI 2018; [slides](../downloads/eckroth-eaai18-biductive-computing.pdf); [project materials](http://modelai.gettysburg.edu/2018/biductive/index.html)
 - Git Planner -- presented at EAAI 2017; [slides](../downloads/eckroth-eaai17-git-planner.pdf); [project materials](http://modelai.gettysburg.edu/2017/gitplanner/index.html)

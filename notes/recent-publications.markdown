@@ -15,6 +15,10 @@ layout: note
 
 ## Computer science education
 
+(\*) indicates student co-authors
+
+- J. Eckroth, R. Anderson(\*). "Tarot: A Course Advising System for the Future." *Journal of Computing Sciences in Colleges* 34(3), pp. 108-116, 2018 ([PDF](../downloads/eckroth-anderson-ccsc-e-2018-tarot.pdf))
+
 - J. Eckroth. "A Course on Big Data Analytics." *Journal of Parallel and Distributed Computing* 118(1), pp. 166-176, 2018 ([PDF](../downloads/eckroth2018course.pdf), [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0743731518300972))
 
 - J. Eckroth. "Teaching cybersecurity and Python programming in a 5-day summer camp." *Journal of Computing Sciences in Colleges* 33(6), pp. 29-39, 2018 ([PDF](../downloads/eckroth-ccsc-ne-2018-cybersecurity-summer-camp.pdf), [ACM DL](https://dl.acm.org/citation.cfm?id=3205196))
