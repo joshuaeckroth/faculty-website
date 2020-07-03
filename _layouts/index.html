@@ -4,16 +4,16 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/code.css">
-    <link href="http://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="container-tight">
       <table id="index">
         <tr>
           <td width="50%">
-            <h2>Teaching</h2>
+            <h2 class="top">Teaching</h2>
             <ul class="posts">
               <li>
                 <div class="post-title"><a href="http://csci431.artifice.cc">CSCI 431</a> &ndash; Artificial Intelligence</div>
@@ -33,19 +33,14 @@
               <li>
                 <div class="post-title"><a href="http://csci111.artifice.cc">CSCI 111</a> &ndash; Introduction to Computing</div>
               </li>
-              <li>
-                <div class="post-title"><a href="http://datahunters.us/">Data Hunters</a> &ndash; Research blog from Big Data course</div>
-              </li>
             </ul>
             <h2>Summer Camps</h2>
             <ul class="posts">
               <li>
-                <div class="post-title"><a href="http://www.stetson.edu/administration/continuing-education/steam/computer-science.php">Cybersecurity Summer Camp 2018</a></div>
-              </li>
-              <li>
-                <div class="post-title"><a href="http://www.stetson.edu/administration/continuing-education/artificial-intelligence.php">AI Summer Camp 2018</a></div>
+                <div class="post-title"><a href="http://cscamp.artifice.cc/">Cybersecurity Camp</a></div>
               </li>
             </ul>
+            {% comment %}
             <h2 style="margin-top: 20px;">Senior research</h2>
             <ul class="posts">
               <li>
@@ -55,6 +50,7 @@
                 <div class="post-title"><a href="notes/senior-research-ideas.html">New senior research ideas</a></div>
               </li>
             </ul>
+            {% endcomment %}
             <h2 style="margin-top: 20px;">i2k Connect</h2>
             <p>
               In addition to my role at Stetson University, I serve as
@@ -72,7 +68,7 @@
             </ul>
           </td>
           <td width="50%">
-            <h2>Research</h2>
+            <h2 class="top">Research</h2>
             <ul class="posts">
               <li>
                 <div class="post-title"><a href="notes/recent-publications.html">Recent publications</a></div>
@@ -80,6 +76,15 @@
               <li>
                 <div class="post-title"><a href="notes/recent-presentations.html">Recent presentations</a></div>
               </li>
+            </ul>
+            <h2>Books</h2>
+            <ul class="posts">
+                <li>
+                    <div class="post-title"><a href="https://www.amazon.com/dp/1788992873">AI Blueprints: How to build and deploy AI business projects</a></div>
+                </li>
+                <li>
+                    <div class="post-title">The book's code is on <a href="https://github.com/PacktPublishing/AIBlueprints">GitHub</a>.</div>
+                </li>
             </ul>
             <h2>Videos</h2>
             <ul class="posts">
@@ -89,28 +94,31 @@
               <li>
                 <div class="post-title"><a href="https://www.packtpub.com/big-data-and-business-intelligence/advanced-artificial-intelligence-projects-python-video">Python AI videos (part 2)</a></div>
               </li>
+              <li>
+                <div class="post-title"><a href="https://www.youtube.com/channel/UCXxgrC_9eEntJiHD1R1cM8A">YouTube Channel</a></div>
+              </li>
             </ul>
             <h2 style="margin-top: 20px;">Code</h2>
             <ul class="posts">
               <li>
-                <div class="post-title"><a href="https://github.com/PacktPublishing/Smart-Code">Smart Code</a> &ndash; examples from a book-in-progress</div>
+                <div class="post-title"><a href="https://github.com/PacktPublishing/AIBlueprints">AI Blueprints</a> &ndash; code from my book</div>
               </li>
               <li>
-                <div class="post-title"><a href="https://github.com/PacktPublishing/Advanced-Artificial-Intelligence-Projects-with-Python">Python AI code</a> &ndash; examples from <a href="https://www.packtpub.com/big-data-and-business-intelligence/advanced-artificial-intelligence-projects-python-video">Python AI videos (part 2)</a></div>
+                <div class="post-title"><a href="https://github.com/PacktPublishing/Advanced-Artificial-Intelligence-Projects-with-Python">Python AI code</a> &ndash; code from <a href="https://www.packtpub.com/big-data-and-business-intelligence/advanced-artificial-intelligence-projects-python-video">Python AI videos (part 2)</a></div>
               </li>
               <li>
                 <div class="post-title"><a href="https://github.com/StetsonMathCS/alpaca">ALPACA</a> &ndash; A tool for building dynamic cyber ranges from procedurally-generated vulnerability lattices</div>
               </li>
+              {% comment %}
               <li>
                 <div class="post-title"><a href="https://github.com/joshuaeckroth/clj-ml">clj-ml</a> &ndash; Machine learning with Clojure</div>
               </li>
               <li>
                 <div class="post-title"><a href="https://github.com/StetsonMathCS/hadoopvirtualcluster">Hadoop Virtual Cluster</a> &ndash; Quickly launch a Hadoop cluster for educational use</div>
               </li>
-              <li>
-                <div class="post-title"><a href="https://github.com/StetsonMathCS/metatron">Metatron</a> &ndash; Code and notes for the department's wheeled robot</div>
-              </li>
+              {% endcomment %}
             </ul>
+            {% comment %}
             <h2 style="margin-top: 20px;">Chautauquas</h2>
             <ul class="posts">
               <li>
@@ -119,14 +127,12 @@
               <li>
                 <div class="post-title"><a href="chautauquas/haskell.html">Haskell notes</a></div>
               </li>
-              <li>
-                <div class="post-title"><a href="chautauquas/eckroth-halting-problem.pdf">The Halting Problem (PDF)</a></div>
-              </li>
             </ul>
+            {% endcomment %}
           </td>
           <td id="metabox">
             <div class="myname">Joshua Eckroth</div>
-            <div class="mytitle">Asst Prof of CS<br/>@ Stetson University</div>
+            <div class="mytitle">Assoc Prof of CS<br/>@&nbsp;Stetson&nbsp;University</div>
             <div class="myimage">
               <img src="images/joshua-eckroth.jpg" title="Joshua Eckroth" alt="Joshua Eckroth" />
             </div>
